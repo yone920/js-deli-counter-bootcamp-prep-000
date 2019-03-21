@@ -1,8 +1,7 @@
 
 function takeANumber(array, newCustomer) {
     line.push(newCustomer)
-    let congra = `Welcome, ${newCustomer}. You are number ${line.length} in line.`
-     return congra;
+    return `Welcome, ${newCustomer}. You are number ${line.length} in line.`;
 }
 takeANumber();
 
