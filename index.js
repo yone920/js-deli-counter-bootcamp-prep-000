@@ -1,10 +1,10 @@
 
+
 function takeANumber(array, newCustomer) {
-    line.push(newCustomer)
-    return `Welcome, ${newCustomer}. You are number ${line.length} in line.`;
+    array.push(newCustomer)
+    return `Welcome, ${newCustomer}, you are number ${array.length} in line.`;
 }
 takeANumber();
-
 
 
 function nowServing(katzDeliLine) {
